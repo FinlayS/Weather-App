@@ -22,7 +22,7 @@ var geocodeAddress = (address, callback) => {
                 longitude: body.results[0].locations[0].latLng.lng
             })
         };
-    }
-)};
+    });
+};
 
 module.exports.geocodeAddress = geocodeAddress;
